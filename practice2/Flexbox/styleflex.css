@@ -1,0 +1,21 @@
+div{
+    width: 100px;
+    height: 100px;
+    font-size: x-large;
+    background-color: rgb(154, 103, 206);
+    border: 2px solid black;
+}
+
+body{
+    width: 150vh;
+    height: 90vh;
+    display: flex;
+    border: 2px solid black;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two{
+    align-self: flex-end;
+}

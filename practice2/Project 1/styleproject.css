@@ -1,0 +1,100 @@
+body{
+    background-image: url('bg.webp');
+    margin: 0px;
+    height: 900px;
+}
+
+header{
+    padding: 20px;
+    color: white;
+    font-family: "Teko", sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.logobox{
+    display: inline-block;
+    width: 190px;
+    transition: all 0.5s;
+    font-size: larger;
+    font-weight: 600px;
+    cursor: pointer;
+}
+
+.navbox{
+    display: inline-block;
+    width: 600px;
+    position: absolute;
+    right: 20px;
+}
+
+.navbox>a:hover{
+    color:rebeccapurple;
+}
+
+.navbox>a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+#homie{
+    color:;
+}
+
+.heading1{
+    color: rebeccapurple;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    width: 500px;
+    top: 60px;
+    left: 70px;
+}
+.heading1+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+    width: 500px;
+    left: 90px;
+}
+
+.heading1+h3+p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: relative;
+    width: 400px;
+    left: 80px;
+    top: 20px;
+    word-spacing: 4px;
+}
+
+.btn{
+    width: 150px;
+    padding: 15px;
+    border: 2px solid rebeccapurple;
+    background-color: rebeccapurple;
+    color: white;
+    font-family: "Teko", sans-serif;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+
+}
+
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
